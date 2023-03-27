@@ -11,6 +11,8 @@ MapboxGL.setAccessToken('MAPBOX_TOKEN');
 
 ## running on iOS
 
+`$ cd ios && pod install`
+
 `$ npm run ios`
 
 ## running on Android

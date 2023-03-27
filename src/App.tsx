@@ -3,7 +3,13 @@ import {View, Text} from 'react-native';
 import styles from './styles';
 
 import MapboxGL from '@rnmapbox/maps';
+//android
 MapboxGL.setWellKnownTileServer('Mapbox');
+//ios
+//MapboxGL.setWellKnownTileServer('maplibre');
+//or
+//MapboxGL.setWellKnownTileServer('mapbox');
+
 MapboxGL.setAccessToken('MAPBOX_TOKEN');
 
 function App(): JSX.Element {

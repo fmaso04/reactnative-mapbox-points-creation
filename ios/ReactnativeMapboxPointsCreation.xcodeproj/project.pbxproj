@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactnativeMapboxPointsCreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactnativeMapboxPointsCreationTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ReactnativeMapboxPointsCreation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactnativeMapboxPointsCreation.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		291324C9C3CCCF5DA254BAE0 /* libPods-ReactnativeMapboxPointsCreation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactnativeMapboxPointsCreation.a */; };
 		7699B88040F8A987B510C191 /* libPods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		837C368929D2094A00865CEB /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 410AD46791EEDD6E4D01C5F1 /* Mapbox */; };
+		837C368A29D2094A00865CEB /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = FC4350BF45B0D47385B55660 /* Mapbox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		5B7EB9410499542E8C5724F5 /* Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests/Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactnativeMapboxPointsCreation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactnativeMapboxPointsCreation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactnativeMapboxPointsCreation/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		837C368229D207AA00865CEB /* librnmapbox-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "librnmapbox-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837C368429D207F300865CEB /* librnmapbox-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "librnmapbox-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.release.xcconfig"; path = "Target Support Files/Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests/Pods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837C368A29D2094A00865CEB /* Mapbox in Frameworks */,
 				7699B88040F8A987B510C191 /* libPods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ReactnativeMapboxPointsCreation.a in Frameworks */,
+				837C368929D2094A00865CEB /* Mapbox in Frameworks */,
+				291324C9C3CCCF5DA254BAE0 /* libPods-ReactnativeMapboxPointsCreation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +105,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				837C368429D207F300865CEB /* librnmapbox-maps.a */,
+				837C368229D207AA00865CEB /* librnmapbox-maps.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-ReactnativeMapboxPointsCreation.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactnativeMapboxPointsCreation-ReactnativeMapboxPointsCreationTests.a */,
@@ -168,6 +176,9 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = ReactnativeMapboxPointsCreationTests;
+			packageProductDependencies = (
+				FC4350BF45B0D47385B55660 /* Mapbox */,
+			);
 			productName = ReactnativeMapboxPointsCreationTests;
 			productReference = 00E356EE1AD99517003FC87E /* ReactnativeMapboxPointsCreationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -190,6 +201,9 @@
 			dependencies = (
 			);
 			name = ReactnativeMapboxPointsCreation;
+			packageProductDependencies = (
+				410AD46791EEDD6E4D01C5F1 /* Mapbox */,
+			);
 			productName = ReactnativeMapboxPointsCreation;
 			productReference = 13B07F961A680F5B00A75B9A /* ReactnativeMapboxPointsCreation.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			packageReferences = (
+				502B63113C5B9237923AFEC0 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+			);
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -486,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU523346X7;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactnativeMapboxPointsCreation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU523346X7;
 				INFOPLIST_FILE = ReactnativeMapboxPointsCreation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -564,7 +583,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -598,6 +617,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -635,7 +655,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -661,6 +681,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -697,6 +718,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		502B63113C5B9237923AFEC0 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				kind = exactVersion;
+				version = 5.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		410AD46791EEDD6E4D01C5F1 /* Mapbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 502B63113C5B9237923AFEC0 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = Mapbox;
+		};
+		FC4350BF45B0D47385B55660 /* Mapbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 502B63113C5B9237923AFEC0 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = Mapbox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }
